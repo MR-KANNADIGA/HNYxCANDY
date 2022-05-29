@@ -21,12 +21,12 @@ from pytgcalls import __version__ as pytgover
 
 from config import (MONGO_DB_URI, MUSIC_BOT_NAME, STRING1, STRING2, STRING3,
                     STRING4, STRING5)
-from Hero import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from HNY import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    BOT_ID, MUSIC_BOT_NAME, SUDOERS, app, boottime)
-from Hero.Database import get_gbans_count, get_served_chats, get_sudoers
-from Hero.Inline import stats1, stats2, stats3, stats4, stats5, stats6, stats7
-from Hero.Plugins import ALL_MODULES
-from Hero.Utilities.ping import get_readable_time
+from HNY.Database import get_gbans_count, get_served_chats, get_sudoers
+from HNY.Inline import stats1, stats2, stats3, stats4, stats5, stats6, stats7
+from HNY.Plugins import ALL_MODULES
+from HNY.Utilities.ping import get_readable_time
 
 __MODULE__ = "sᴛᴀᴛs"
 __HELP__ = """
