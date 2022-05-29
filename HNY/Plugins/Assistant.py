@@ -7,9 +7,9 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineQueryResultPhoto, InputTextMessageContent,
                             Message)
 
-from Hero import SUDOERS, app, random_assistant
-from Hero.Database import get_assistant, save_assistant
-from Hero.Utilities.assistant import get_assistant_details
+from HNY import SUDOERS, app, random_assistant
+from HNY.Database import get_assistant, save_assistant
+from HNY.Utilities.assistant import get_assistant_details
 
 __MODULE__ = "ᴀssɪsᴛᴀɴᴛ"
 __HELP__ = f"""
@@ -76,7 +76,7 @@ async def assis_change(_, message: Message):
     _assistant = await get_assistant(message.chat.id, "assistant")
     if not _assistant:
         await message.reply_text(
-            f"**__ʜᴇʀᴏ ᴍᴜsɪᴄs ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀʟʟᴏᴛᴇᴅ__**\n\nᴀssɪsᴛᴀɴᴛ ɴᴏ. **{ran_ass}**"
+            f"**__HNYxCANDY ᴍᴜsɪᴄs ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀʟʟᴏᴛᴇᴅ__**\n\nᴀssɪsᴛᴀɴᴛ ɴᴏ. **{ran_ass}**"
         )
         assis = {
             "saveassistant": ran_ass,
