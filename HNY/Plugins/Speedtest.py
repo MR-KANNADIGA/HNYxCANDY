@@ -5,8 +5,8 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Hero import BOT_ID, SUDOERS, app
-from Hero.Utilities.formatters import bytes
+from HNY import BOT_ID, SUDOERS, app
+from HNY.Utilities.formatters import bytes
 
 __MODULE__ = "sᴘᴇᴇᴅᴛᴇsᴛ"
 __HELP__ = """
