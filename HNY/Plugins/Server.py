@@ -17,10 +17,10 @@ from pyrogram.types import Message
 
 from config import (HEROKU_API_KEY, HEROKU_APP_NAME, UPSTREAM_BRANCH,
                     UPSTREAM_REPO)
-from Hero import LOG_GROUP_ID, MUSIC_BOT_NAME, SUDOERS, app
-from Hero.Database import get_active_chats, remove_active_chat, remove_active_video_chat
-from Hero.Utilities.heroku import is_heroku, user_input
-from Hero.Utilities.paste import isPreviewUp, paste_queue
+from HNY import LOG_GROUP_ID, MUSIC_BOT_NAME, SUDOERS, app
+from HNY.Database import get_active_chats, remove_active_chat, remove_active_video_chat
+from HNY.Utilities.heroku import is_heroku, user_input
+from HNY.Utilities.paste import isPreviewUp, paste_queue
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
