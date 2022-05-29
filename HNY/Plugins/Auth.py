@@ -1,12 +1,12 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Hero import SUDOERS, app
-from Hero.Database import (_get_authusers, delete_authuser, get_authuser,
+from HNY import SUDOERS, app
+from HNY.Database import (_get_authusers, delete_authuser, get_authuser,
                             get_authuser_count, get_authuser_names,
                             save_authuser)
-from Hero.Decorators.admins import AdminActual
-from Hero.Utilities.changers import (alpha_to_int, int_to_alpha,
+from HNY.Decorators.admins import AdminActual
+from HNY.Utilities.changers import (alpha_to_int, int_to_alpha,
                                       time_to_seconds)
 
 __MODULE__ = "ᴀᴜᴛʜ ᴜsᴇʀs"
