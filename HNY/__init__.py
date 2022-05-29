@@ -17,10 +17,10 @@ from config import MONGO_DB_URI as mango
 from config import (MUSIC_BOT_NAME, OWNER_ID, STRING1, STRING2, STRING3,
                     STRING4, STRING5, SUDO_USERS, UPSTREAM_BRANCH,
                     UPSTREAM_REPO, get_queue)
-from Hero.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4,
+from HNY.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4,
                                     ASS_CLI_5, LOG_CLIENT, app)
-from Hero.Utilities.changers import time_to_seconds
-from Hero.Utilities.tasks import install_requirements
+from HNY.Utilities.changers import time_to_seconds
+from HNY.Utilities.tasks import install_requirements
 
 loop = asyncio.get_event_loop()
 console = Console()
@@ -104,7 +104,7 @@ async def initiate_bot():
     )
     console.print(header)
     with console.status(
-        "[magenta] Hero Music Bot Booting...",
+        "[magenta] HNYxCANDY Music Bot Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Clients...\n")
         await app.start()
