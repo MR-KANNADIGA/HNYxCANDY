@@ -1,13 +1,6 @@
-<h4 align="center">
-    ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ ʙᴏᴛ ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴜsɪɴɢ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs 
-</h4>
-<p align="center">
-    <a href="https://t.me/Heromusics_bot"> ʀᴇᴀᴅʏ-ᴛᴏ-ᴜsᴇ ʙᴏᴛ </a> •
-    <a href="https://t.me/Modmenumaking"> sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ </a> •
-    <a href="https://t.me/Yaaro_ki_yaarii"> sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ </a> 
-</p>
+
     
-# ʜᴇʀᴏ ᴍᴜsɪᴄs ʙᴏᴛ
+# HNYxCANDY ᴍᴜsɪᴄs ʙᴏᴛ
 
 ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ ʙᴏᴛ ʙʏ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ sᴏɴɢs, ᴠɪᴅᴇᴏs ᴀɴᴅ ᴇᴠᴇɴ ʟɪᴠᴇ sᴛʀᴇᴀᴍs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄᴀʟʟs ᴠɪᴀ ᴠᴀʀɪᴏᴜs sᴏᴜʀᴄᴇs. ɪᴛ ᴄᴏᴍᴇs ᴡɪᴛʜ  ᴜsᴇʀ ғʀɪᴇɴᴅʟʏ ᴀɴᴅ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ʏᴇᴛ ᴇʟᴇɢᴀɴᴛ ғᴇᴀᴛᴜʀᴇs.
 
@@ -53,19 +46,3 @@
     
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
     
-</details>
-
-
-## ᴏʀɪɢɪɴᴀʟ ʀᴇᴘᴏ & sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
-
-[sʜɪᴋʜᴀʀ](https://github.com/notreallyshikhar/YukkiMusicBot) 
-
-## ᴀᴄᴋɴᴏᴡʟᴇᴅɢᴇᴍᴇɴᴛs
-
-sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ ᴛʜᴇsᴇ ᴀᴍᴀᴢɪɴɢ ᴘʀᴏᴊᴇᴄᴛs/ᴘᴇᴏᴘʟᴇ ᴡʜɪᴄʜ/ᴡʜᴏ ʜᴇʟᴘᴇᴅ ʜᴇʀᴏ ᴍᴜsɪᴄs ʙᴏᴛ:
-
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
-- [CallsMusic Team](https://github.com/Callsmusic)
-- [TheHamkerCat](https://github.com/TheHamkerCat)
-- [Charon Baglari](https://github.com/XCBv021)
