@@ -2,7 +2,7 @@ import asyncio
 
 from youtubesearchpython import VideosSearch
 
-from Hero.Utilities.changers import time_to_seconds
+from HNY.Utilities.changers import time_to_seconds
 
 
 def get_yt_info_id(videoid):
