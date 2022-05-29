@@ -7,31 +7,31 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import get_queue
-from Hero import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
-from Hero.Core.PyTgCalls import Queues
-from Hero.Core.PyTgCalls.Converter import convert
-from Hero.Core.PyTgCalls.Downloader import download
-from Hero.Core.PyTgCalls.Hero import (join_stream, pause_stream,
+from HNY import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
+from HNY.Core.PyTgCalls import Queues
+from HNY.Core.PyTgCalls.Converter import convert
+from HNY.Core.PyTgCalls.Downloader import download
+from HNY.Core.PyTgCalls.Hero import (join_stream, pause_stream,
                                         resume_stream, skip_stream,
                                         skip_video_stream, stop_stream)
-from Hero.Database import (_get_playlists, delete_playlist, get_playlist,
+from HNY.Database import (_get_playlists, delete_playlist, get_playlist,
                             get_playlist_names, is_active_chat,
                             remove_active_video_chat, save_playlist)
-from Hero.Database.queue import (add_active_chat, is_active_chat,
+from HNY.Database.queue import (add_active_chat, is_active_chat,
                                   is_music_playing, music_off, music_on,
                                   remove_active_chat)
-from Hero.Decorators.admins import AdminRightsCheckCB
-from Hero.Decorators.checker import checkerCB
-from Hero.Inline import (audio_markup, audio_markup2, download_markup,
+from HNY.Decorators.admins import AdminRightsCheckCB
+from HNY.Decorators.checker import checkerCB
+from HNY.Inline import (audio_markup, audio_markup2, download_markup,
                           fetch_playlist, paste_queue_markup, primary_markup,
                           secondary_markup2)
-from Hero.Utilities.changers import time_to_seconds
-from Hero.Utilities.chat import specialfont_to_normal
-from Hero.Utilities.paste import isPreviewUp, paste_queue
-from Hero.Utilities.theme import check_theme
-from Hero.Utilities.thumbnails import gen_thumb
-from Hero.Utilities.timer import start_timer
-from Hero.Utilities.youtube import get_m3u8, get_yt_info_id
+from HNY.Utilities.changers import time_to_seconds
+from HNY.Utilities.chat import specialfont_to_normal
+from HNY.Utilities.paste import isPreviewUp, paste_queue
+from HNY.Utilities.theme import check_theme
+from HNY.Utilities.thumbnails import gen_thumb
+from HNY.Utilities.timer import start_timer
+from HNY.Utilities.youtube import get_m3u8, get_yt_info_id
 
 loop = asyncio.get_event_loop()
 
