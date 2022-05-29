@@ -6,11 +6,11 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 from youtube_search import YoutubeSearch
 
-from Hero import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
+from HNY import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
                    MUSIC_BOT_NAME, app, db_mem)
-from Hero.Inline import song_download_markup, song_markup
-from Hero.Utilities.url import get_url
-from Hero.Utilities.youtube import get_yt_info_query, get_yt_info_query_slider
+from HNY.Inline import song_download_markup, song_markup
+from HNY.Utilities.url import get_url
+from HNY.Utilities.youtube import get_yt_info_query, get_yt_info_query_slider
 
 loop = asyncio.get_event_loop()
 
