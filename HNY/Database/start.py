@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Hero import db
+from HNY import db
 
 assisdb = db.start
 
