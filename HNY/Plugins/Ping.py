@@ -6,8 +6,8 @@ import psutil
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Hero import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
-from Hero.Utilities.ping import get_readable_time
+from HNY import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
+from HNY.Utilities.ping import get_readable_time
 
 __MODULE__ = "ᴘɪɴɢ"
 __HELP__ = """
@@ -40,5 +40,5 @@ async def ping(_, message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await response.edit_text(
-        f"**💐 ᴘᴏɴɢ**\n`⚡{resp} ᴍs`\n\n**{MUSIC_BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs:**{uptime}"
+        f"**💐 HNYxCANDY**\n`⚡{resp} ᴍs`\n\n**{MUSIC_BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs:**{uptime}"
     )
