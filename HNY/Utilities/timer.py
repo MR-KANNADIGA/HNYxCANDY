@@ -6,9 +6,9 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Hero import db_mem
-from Hero.Database import is_active_chat, is_music_playing
-from Hero.Inline import audio_timer_markup_start, timer_markup
+from HNY import db_mem
+from HNY.Database import is_active_chat, is_music_playing
+from HNY.Inline import audio_timer_markup_start, timer_markup
 
 
 async def start_timer(
