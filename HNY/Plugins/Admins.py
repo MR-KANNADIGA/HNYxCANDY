@@ -9,25 +9,25 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             ReplyKeyboardMarkup, ReplyKeyboardRemove)
 
 from config import get_queue
-from Hero import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
-from Hero.Core.PyTgCalls import Queues
-from Hero.Core.PyTgCalls.Converter import convert
-from Hero.Core.PyTgCalls.Downloader import download
-from Hero.Core.PyTgCalls.Hero import (pause_stream, resume_stream,
+from HNY import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
+from HNY.Core.PyTgCalls import Queues
+from HNY.Core.PyTgCalls.Converter import convert
+from HNY.Core.PyTgCalls.Downloader import download
+from HNY.Core.PyTgCalls.Hero import (pause_stream, resume_stream,
                                         skip_stream, skip_video_stream,
                                         stop_stream)
-from Hero.Database import (is_active_chat, is_music_playing, music_off,
+from HNY.Database import (is_active_chat, is_music_playing, music_off,
                             music_on, remove_active_chat,
                             remove_active_video_chat)
-from Hero.Decorators.admins import AdminRightsCheck
-from Hero.Decorators.checker import checker, checkerCB
-from Hero.Inline import audio_markup, primary_markup, secondary_markup2
-from Hero.Utilities.changers import time_to_seconds
-from Hero.Utilities.chat import specialfont_to_normal
-from Hero.Utilities.theme import check_theme
-from Hero.Utilities.thumbnails import gen_thumb
-from Hero.Utilities.timer import start_timer
-from Hero.Utilities.youtube import get_m3u8, get_yt_info_id
+from HNY.Decorators.admins import AdminRightsCheck
+from HNY.Decorators.checker import checker, checkerCB
+from HNY.Inline import audio_markup, primary_markup, secondary_markup2
+from HNY.Utilities.changers import time_to_seconds
+from HNY.Utilities.chat import specialfont_to_normal
+from HNY.Utilities.theme import check_theme
+from HNY.Utilities.thumbnails import gen_thumb
+from HNY.Utilities.timer import start_timer
+from HNY.Utilities.youtube import get_m3u8, get_yt_info_id
 
 loop = asyncio.get_event_loop()
 
