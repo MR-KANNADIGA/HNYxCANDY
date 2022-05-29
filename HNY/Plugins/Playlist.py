@@ -3,13 +3,13 @@ from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,
                             KeyboardButton, Message, ReplyKeyboardMarkup,
                             ReplyKeyboardRemove)
 
-from Hero import BOT_ID, BOT_USERNAME, MUSIC_BOT_NAME, SUDOERS, app, db_mem
-from Hero.Database import (_get_playlists, delete_playlist, get_playlist,
+from HNY import BOT_ID, BOT_USERNAME, MUSIC_BOT_NAME, SUDOERS, app, db_mem
+from HNY.Database import (_get_playlists, delete_playlist, get_playlist,
                             get_playlist_names, save_playlist)
-from Hero.Decorators.admins import AdminRightsCheck
-from Hero.Decorators.assistant import AssistantAdd
-from Hero.Decorators.checker import checker, checkerCB
-from Hero.Inline import (add_genre_markup, check_genre_markup, check_markup,
+from HNY.Decorators.admins import AdminRightsCheck
+from HNY.Decorators.assistant import AssistantAdd
+from HNY.Decorators.checker import checker, checkerCB
+from HNY.Inline import (add_genre_markup, check_genre_markup, check_markup,
                           delete_playlist_markuup, download_markup,
                           others_markup, play_genre_playlist, playlist_markup,
                           third_playlist_markup)
