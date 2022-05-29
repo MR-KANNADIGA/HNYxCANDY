@@ -1,6 +1,6 @@
 from config import LOG_GROUP_ID
-from Hero.Core.Clients.cli import LOG_CLIENT
-from Hero.Database import is_on_off
+from HNY.Core.Clients.cli import LOG_CLIENT
+from HNY.Database import is_on_off
 
 
 def logging(mystic):
