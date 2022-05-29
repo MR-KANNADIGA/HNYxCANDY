@@ -13,8 +13,8 @@ from pyrogram.errors import MessageNotModified
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,
                             Message, ReplyKeyboardMarkup)
 
-from Hero import SUDOERS, app
-from Hero.Utilities.tasks import add_task, rm_task
+from HNY import SUDOERS, app
+from HNY.Utilities.tasks import add_task, rm_task
 
 # Eval and Sh module from WBB
 
