@@ -12,46 +12,46 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 from youtube_search import YoutubeSearch
 
-import Hero
-from Hero import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
+import HNY
+from HNY import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
                    MUSIC_BOT_NAME, app, db_mem)
-from Hero.Core.PyTgCalls.Converter import convert
-from Hero.Core.PyTgCalls.Downloader import download
-from Hero.Core.PyTgCalls.Tgdownloader import telegram_download
-from Hero.Database import (get_active_video_chats, get_video_limit,
+from HNY.Core.PyTgCalls.Converter import convert
+from HNY.Core.PyTgCalls.Downloader import download
+from HNY.Core.PyTgCalls.Tgdownloader import telegram_download
+from HNY.Database import (get_active_video_chats, get_video_limit,
                             is_active_video_chat)
-from Hero.Decorators.assistant import AssistantAdd
-from Hero.Decorators.checker import checker
-from Hero.Decorators.logger import logging
-from Hero.Inline import (livestream_markup, playlist_markup, search_markup,
+from HNY.Decorators.assistant import AssistantAdd
+from HNY.Decorators.checker import checker
+from HNY.Decorators.logger import logging
+from HNY.Inline import (livestream_markup, playlist_markup, search_markup,
                           search_markup2, url_markup, url_markup2)
-from Hero.Utilities.changers import seconds_to_min, time_to_seconds
-from Hero.Utilities.chat import specialfont_to_normal
-from Hero.Utilities.stream import start_stream, start_stream_audio
-from Hero.Utilities.theme import check_theme
-from Hero.Utilities.thumbnails import gen_thumb
-from Hero.Utilities.url import get_url
-from Hero.Utilities.videostream import start_stream_video
-from Hero.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
+from HNY.Utilities.changers import seconds_to_min, time_to_seconds
+from HNY.Utilities.chat import specialfont_to_normal
+from HNY.Utilities.stream import start_stream, start_stream_audio
+from HNY.Utilities.theme import check_theme
+from HNY.Utilities.thumbnails import gen_thumb
+from HNY.Utilities.url import get_url
+from HNY.Utilities.videostream import start_stream_video
+from HNY.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
                                      get_yt_info_query_slider)
-from Hero.Utilities.youtube import get_m3u8
+from HNY.Utilities.youtube import get_m3u8
 from config import get_queue
-from Hero import BOT_USERNAME, db_mem
-from Hero.Core.PyTgCalls import Queues
-from Hero.Core.PyTgCalls.Hero import (join_live_stream, join_video_stream,
+from HNY import BOT_USERNAME, db_mem
+from HNY.Core.PyTgCalls import Queues
+from HNY.Core.PyTgCalls.Hero import (join_live_stream, join_video_stream,
                                         stop_stream)
-from Hero.Database import (add_active_chat, add_active_video_chat,
+from HNY.Database import (add_active_chat, add_active_video_chat,
                             is_active_chat, music_off, music_on,
                             remove_active_chat)
-from Hero.Inline import (audio_markup, audio_markup2, primary_markup,
+from HNY.Inline import (audio_markup, audio_markup2, primary_markup,
                           secondary_markup, secondary_markup2)
-from Hero.Utilities.timer import start_timer
-from Hero.Core.PyTgCalls.Hero import join_stream
-from Hero.Database import (add_active_chat, add_active_video_chat,
+from HNY.Utilities.timer import start_timer
+from HNY.Core.PyTgCalls.Hero import join_stream
+from HNY.Database import (add_active_chat, add_active_video_chat,
                             is_active_chat, music_off, music_on)
-from Hero.Inline import (audio_markup, audio_markup2, primary_markup,
+from HNY.Inline import (audio_markup, audio_markup2, primary_markup,
                           secondary_markup)
-from Hero.Utilities.timer import start_timer
+from HNY.Utilities.timer import start_timer
 
 loop = asyncio.get_event_loop()
 
