@@ -1,7 +1,7 @@
 from pyrogram import filters
 
-from Hero import LOG_GROUP_ID, OWNER_ID, SUDOERS, app
-from Hero.Database import is_gbanned_user, is_on_off
+from HNY import LOG_GROUP_ID, OWNER_ID, SUDOERS, app
+from HNY.Database import is_gbanned_user, is_on_off
 
 
 @app.on_message(filters.private & ~filters.user(SUDOERS))
