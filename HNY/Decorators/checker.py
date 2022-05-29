@@ -1,5 +1,5 @@
-from Hero import BOT_USERNAME, LOG_GROUP_ID, app
-from Hero.Database import blacklisted_chats, is_gbanned_user, is_on_off
+from HNY import BOT_USERNAME, LOG_GROUP_ID, app
+from HNY.Database import blacklisted_chats, is_gbanned_user, is_on_off
 
 
 def checker(mystic):
