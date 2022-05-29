@@ -1,11 +1,11 @@
 from typing import Dict, List, Union
 
-from Hero import SUDOERS, app
-from Hero.Database import (_get_authusers, add_nonadmin_chat, delete_authuser,
+from HNY import SUDOERS, app
+from HNY.Database import (_get_authusers, add_nonadmin_chat, delete_authuser,
                             get_authuser, get_authuser_count,
                             get_authuser_names, is_nonadmin_chat,
                             remove_nonadmin_chat, save_authuser)
-from Hero.Utilities.changers import int_to_alpha
+from HNY.Utilities.changers import int_to_alpha
 
 
 def AdminRightsCheck(mystic):
