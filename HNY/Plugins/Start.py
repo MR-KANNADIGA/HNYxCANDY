@@ -9,20 +9,20 @@ from pyrogram import filters
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Hero import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app
-from Hero import boottime as bot_start_time
-from Hero import db, random_assistant
-from Hero.Core.PyTgCalls import Hero
-from Hero.Database import (add_nonadmin_chat, add_served_chat,
+from HNY import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app
+from HNY import boottime as bot_start_time
+from HNY import db, random_assistant
+from HNY.Core.PyTgCalls import HNY
+from HNY.Database import (add_nonadmin_chat, add_served_chat,
                             blacklisted_chats, get_assistant, get_authuser,
                             get_authuser_names, get_start, is_nonadmin_chat,
                             is_served_chat, remove_active_chat,
                             remove_nonadmin_chat, save_assistant, save_start)
-from Hero.Decorators.admins import ActualAdminCB
-from Hero.Inline import (custommarkup, dashmarkup, setting_markup,
+from HNY.Decorators.admins import ActualAdminCB
+from HNY.Inline import (custommarkup, dashmarkup, setting_markup,
                           setting_markup2, start_pannel, usermarkup, volmarkup)
-from Hero.Utilities.assistant import get_assistant_details
-from Hero.Utilities.ping import get_readable_time
+from HNY.Utilities.assistant import get_assistant_details
+from HNY.Utilities.ping import get_readable_time
 
 welcome_group = 2
 
