@@ -2,8 +2,8 @@ from typing import Dict, List, Union
 
 from pyrogram import Client, filters
 
-from Hero import BOT_USERNAME, MUSIC_BOT_NAME, app, db
-from Hero.Database import _get_theme, get_theme, save_theme
+from HNY import BOT_USERNAME, MUSIC_BOT_NAME, app, db
+from HNY.Database import _get_theme, get_theme, save_theme
 
 themes = [
     "blue",
