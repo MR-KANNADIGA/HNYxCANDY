@@ -7,16 +7,16 @@ from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types.messages_and_media import message
 
 from config import get_queue
-from Hero import BOT_USERNAME, db_mem
-from Hero.Core.PyTgCalls import Queues
-from Hero.Core.PyTgCalls.Hero import (join_live_stream, join_video_stream,
+from HNY import BOT_USERNAME, db_mem
+from HNY.Core.PyTgCalls import Queues
+from HNY.Core.PyTgCalls.Hero import (join_live_stream, join_video_stream,
                                         stop_stream)
-from Hero.Database import (add_active_chat, add_active_video_chat,
+from HNY.Database import (add_active_chat, add_active_video_chat,
                             is_active_chat, music_off, music_on,
                             remove_active_chat)
-from Hero.Inline import (audio_markup, audio_markup2, primary_markup,
+from HNY.Inline import (audio_markup, audio_markup2, primary_markup,
                           secondary_markup, secondary_markup2)
-from Hero.Utilities.timer import start_timer
+from HNY.Utilities.timer import start_timer
 
 loop = asyncio.get_event_loop()
 
