@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Hero import SUDOERS, app
-from Hero.Database import blacklist_chat, blacklisted_chats, whitelist_chat
+from HNY import SUDOERS, app
+from HNY.Database import blacklist_chat, blacklisted_chats, whitelist_chat
 
 __MODULE__ = "ʙʟᴀᴄᴋʟɪsᴛ"
 __HELP__ = """
