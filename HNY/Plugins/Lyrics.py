@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from youtubesearchpython import VideosSearch
 
-from Hero import MUSIC_BOT_NAME, app
+from HNY import MUSIC_BOT_NAME, app
 
 __MODULE__ = "ʟʏʀɪᴄs"
 __HELP__ = """
