@@ -9,12 +9,12 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 
 from config import get_queue
-from Hero import SUDOERS, app, db_mem, random_assistant
-from Hero.Database import (get_active_chats, get_active_video_chats,
+from HNY import SUDOERS, app, db_mem, random_assistant
+from HNY.Database import (get_active_chats, get_active_video_chats,
                             get_assistant, is_active_chat, save_assistant)
-from Hero.Decorators.checker import checker, checkerCB
-from Hero.Inline import primary_markup,choose_markup
-from Hero.Utilities.assistant import get_assistant_details
+from HNY.Decorators.checker import checker, checkerCB
+from HNY.Inline import primary_markup,choose_markup
+from HNY.Utilities.assistant import get_assistant_details
 
 loop = asyncio.get_event_loop()
 
