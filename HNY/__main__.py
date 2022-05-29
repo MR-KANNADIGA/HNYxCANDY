@@ -12,19 +12,19 @@ from youtubesearchpython import VideosSearch
 
 from config import (LOG_GROUP_ID, LOG_SESSION, STRING1, STRING2, STRING3,
                     STRING4, STRING5)
-from Hero import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from HNYxCANDY import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    ASSID1, ASSID2, ASSID3, ASSID4, ASSID5, ASSNAME1, ASSNAME2,
                    ASSNAME3, ASSNAME4, ASSNAME5, BOT_ID, BOT_NAME, LOG_CLIENT,
                    OWNER_ID, app)
-from Hero.Core.Clients.cli import LOG_CLIENT
-from Hero.Core.PyTgCalls.Hero import (pytgcalls1, pytgcalls2, pytgcalls3,
+from HNY.Core.Clients.cli import LOG_CLIENT
+from HNY.Core.PyTgCalls.HNY import (pytgcalls1, pytgcalls2, pytgcalls3,
                                         pytgcalls4, pytgcalls5)
-from Hero.Database import (get_active_chats, get_active_video_chats,
+from HNY.Database import (get_active_chats, get_active_video_chats,
                             get_sudoers, is_on_off, remove_active_chat,
                             remove_active_video_chat)
-from Hero.Inline import private_panel
-from Hero.Plugins import ALL_MODULES
-from Hero.Utilities.inline import paginate_modules
+from HNY.Inline import private_panel
+from HNY.Plugins import ALL_MODULES
+from HNY.Utilities.inline import paginate_modules
 
 loop = asyncio.get_event_loop()
 console = Console()
@@ -60,7 +60,7 @@ async def initiate_bot():
         )
         for all_module in ALL_MODULES:
             imported_module = importlib.import_module(
-                "Hero.Plugins." + all_module
+                "HNY.Plugins." + all_module
             )
             if (
                 hasattr(imported_module, "__MODULE__")
@@ -82,7 +82,7 @@ async def initiate_bot():
             status="[bold blue]Importation Completed!",
         )
     console.print(
-        "[bold green]ᴄᴏɴɢʀᴀᴛs ʜᴇʀᴏ ᴍᴜsɪᴄ ʙᴏᴛ ʜᴀs sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 🌸✨\n"
+        "[bold green]ᴄᴏɴɢʀᴀᴛs HNYxCANDY ᴍᴜsɪᴄ ʙᴏᴛ ʜᴀs sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 🌸✨\n"
     )
     try:
         await app.send_message(
@@ -214,7 +214,7 @@ async def initiate_bot():
             await LOG_CLIENT.join_chat("yaaro_ki_yaarii")
         except:
             pass
-    console.print(f"└[red] ʜᴇʀᴏ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴏᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ...")
+    console.print(f"└[red] HNYxCANDY ᴍᴜsɪᴄ ʙᴏᴛ ʙᴏᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ...")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
